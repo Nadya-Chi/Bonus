@@ -4,8 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-class CashbackHackServiceTest {
-
+public class CashbackHackServiceJUnitJupiterTest {
     @Test
     public void purchaseForTheAmount2000() {
         CashbackHackService cashbackHackService = new CashbackHackService();
@@ -38,5 +37,4 @@ class CashbackHackServiceTest {
 
         assertEquals(actual,expected);
     }
-
 }
